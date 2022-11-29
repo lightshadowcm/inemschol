@@ -10,12 +10,15 @@ a {color: rgb(255, 255, 255); font-family: sans-serif; text-decoration: none;}
 a:hover {color: black; font-family: sans-serif; text-decoration: none;}
 a:visited {color: black; font-family: sans-serif; text-decoration: none;}
 header{
-  background-color: #e3e4e9;
+  background-color: #e9ebf1;
   position: fixed;
+  
   width: 100%;
   
 }
-
+header{
+  z-index: 5;
+}
 
 .logo-nombre{
   padding: 10px;
@@ -23,6 +26,7 @@ header{
   position: relative;
   display: inline-block;
   margin: 5px;
+  z-index: 23;
 }
 #logo{
   position: relative;
@@ -34,7 +38,8 @@ header{
 .dropdown {
     display: inline-block;
     position: relative;
-    left: 300px;
+    left: 500px;
+    cursor: pointer;
   }
   .dropdown-content {
     display: none;
@@ -42,12 +47,13 @@ header{
     width: auto;
     overflow: auto;
     padding: 5px;
-    box-shadow: 0px 10px 10px 0px#213feb;
+    
   }
   .dropdown:hover .dropdown-content {
     display: block;
     background-color: aliceblue;
-    border-radius: 7%;
+    
+    
   }
   .dropdown-content a {
     display: block;
@@ -59,14 +65,14 @@ header{
     
   }
   .dropdown-content a:hover {
-    color: #1de2f0;
-    background-color: #0615e2de;
+    color: #010a0a;
+    background-color: #e1e1e4de;
   }
   .dropdown button{
     padding: 10px;
     font: 100% sans-serif;
-    border-radius: 10%;
-    border-color:#213feb ;
+    border-radius: 5%;
+    border: none;
     text-decoration: none;
     color: black;  font-family: arial; text-decoration: none
 
@@ -77,18 +83,74 @@ header{
     width: auto;
     display: inline-block;
     padding: 30px;
+    margin: 50px;
+    
+  }
+  .red-socialf{
+    display: inline-block;
+    
+    z-index: 3;
+    
+    margin: 30px;
     
   }
   .calendario{
-    
-    left: 350px;
+    border: none;
     display: inline-block;
-    
+    z-index: 3;
     position: relative;
+    overflow: 0;
+    margin: 0px;
   }
-.icons {
+  .equipos{
+    display: inline-block;
+    margin: 10px;
+  }
+.clasificados{
+  background-color: rgb(233, 233, 233);
+  width: 375px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: solid;
+  border-color: rgb(143, 138, 133);
+  border-radius: 8px;
+}
+.contenedor{
+  background-color: rgb(190, 190, 190);
+}
+.vermas{
+  text-align: center;
+  left: 5450px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 35%;
+  background-color: white;
+}
+.vermasc{
+  text-align: center  ;
+  padding: 5px;
+  
+  width: auto;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .footer{
     background-color: #0323d6;
      color: white;
