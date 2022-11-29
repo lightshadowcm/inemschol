@@ -72,6 +72,20 @@ header{
 
 
   }
+  .video-institucional{
+    background-color:#0615e2de ;
+    width: auto;
+    display: inline-block;
+    padding: 30px;
+    
+  }
+  .calendario{
+    
+    left: 350px;
+    display: inline-block;
+    
+    position: relative;
+  }
 .icons {
   
 }
@@ -94,5 +108,5 @@ header{
     background-color:  #0a2be6;
   }
   
-  
+
  
