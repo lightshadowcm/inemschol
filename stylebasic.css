@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   font: sans-serif;
+}
+* {outline: none !important;}
+textarea:focus, input:focus {outline: none !important;}
+a {color: rgb(255, 255, 255); font-family: sans-serif; text-decoration: none;}
+a:hover {color: black; font-family: sans-serif; text-decoration: none;}
+a:visited {color: black; font-family: sans-serif; text-decoration: none;}
+header{
+  background-color: #e3e4e9;
+  position: fixed;
+  width: 100%;
+  
+}
+
+
+.logo-nombre{
+  padding: 10px;
+  color: black;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+#logo{
+  position: relative;
+  width: auto;
+  display: inline-block;
+  margin: 15px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: auto;
+    overflow: auto;
+    padding: 5px;
+    box-shadow: 0px 10px 10px 0px#213feb;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: aliceblue;
+    border-radius: 7%;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    
+    
+  }
+  .dropdown-content a:hover {
+    color: #1de2f0;
+    background-color: #0615e2de;
+  }
+  .dropdown button{
+    padding: 10px;
+    font: 100% sans-serif;
+    border-radius: 10%;
+    border-color:#213feb ;
+    text-decoration: none;
+    color: black;  font-family: arial; text-decoration: none
+
+
+  }
+.icons {
+  
+}
+  .footer{
+    background-color: #0323d6;
+     color: white;
+     width: 100%;
+  }
+  .footer-contacto{
+    width: auto;
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    font-size:110%;
+  }
+  .footer a:visited {color: rgb(255, 255, 255); font-family: sans-serif; text-decoration: none;}
+  .footer2{ 
+  
+    text-align: center;
+    background-color:  #0a2be6;
+  }
+  
+  
+ 
